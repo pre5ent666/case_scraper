@@ -30,8 +30,8 @@ class Scraper():
             raise SystemExit(
                 'Unable to connect to Jira server, please check your wifi setting!')
 
-        username = 'jeter.lin'
-        pw = 'sD4T1pDTZp'
+        username = ''
+        pw = ''
         print('Entering the username and password')
         driver.find_element_by_id('login-form-username').send_keys(username)
         driver.find_element_by_id('login-form-password').send_keys(pw)
